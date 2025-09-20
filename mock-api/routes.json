@@ -1,0 +1,8 @@
+{
+  "/api/users": "/users",
+  "/api/metrics": "/metrics",
+  "/api/roles": "/roles",
+  "/api/departments": "/departments",
+  "/api/fleets": "/fleets",
+  "/api/shifts": "/shifts"
+}

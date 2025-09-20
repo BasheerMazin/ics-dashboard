@@ -1,0 +1,188 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Ahmed",
+      "middleName": "Jasim",
+      "lastName": "Ali",
+      "email": "ahmed.ali@company.com",
+      "phone": "+974 3333 4444",
+      "rfidEnabled": true,
+      "rfidId": "12345",
+      "role": "Super Admin",
+      "department": "Fire Fighter",
+      "fleet": "Road Cluster",
+      "status": "Active",
+      "avatarUrl": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "id": 2,
+      "firstName": "John",
+      "middleName": "—",
+      "lastName": "Doe",
+      "email": "john.doe@company.com",
+      "phone": "+974 4444 5555",
+      "rfidEnabled": false,
+      "rfidId": null,
+      "role": "Dispatcher",
+      "department": "Operations",
+      "fleet": "Q22",
+      "status": "Active",
+      "avatarUrl": "https://i.pravatar.cc/150?img=3"
+    }
+  ],
+  "roles": [
+    "Super Admin",
+    "Admin",
+    "Dispatcher",
+    "Driver",
+    "Viewer"
+  ],
+  "departments": [
+    "Fire Fighter",
+    "Operations",
+    "Maintenance",
+    "HR",
+    "IT",
+    "Finance",
+    "Security"
+  ],
+  "fleets": [
+    "Q22",
+    "Road Cluster",
+    "Logistics",
+    "VIP",
+    "Airport"
+  ],
+  "metrics": {
+    "cards": [
+      { "key": "activeTrips", "label": "Active Trips", "current": 300, "total": 302, "percent": 99 },
+      { "key": "activeVehicles", "label": "Active Vehicles", "current": 375, "total": 500, "percent": 75 },
+      { "key": "underMaintenance", "label": "Under Maintenance", "current": 16, "total": 20, "percent": 80 },
+      { "key": "inactiveTrips", "label": "In-Active Trips", "value": 2 },
+      { "key": "stoppedVehicles", "label": "Stopped Vehicles", "value": 100 },
+      { "key": "queueMaintenance", "label": "Queue Maintenance", "value": 4 },
+      { "key": "totalDepartments", "label": "Total Departments", "value": 7 },
+      { "key": "totalFleets", "label": "Total Fleets", "value": 60 },
+      { "key": "totalDrivers", "label": "Total Drivers", "value": 300 }
+    ],
+    "totals": {
+      "totalDistanceKm": 43303,
+      "totalHours": 291,
+      "totalMinutes": 23
+    },
+    "chartMonthlyUsers": [120, 200, 180, 260, 320, 300, 400, 380, 420, 480, 510, 560]
+  },
+  "shifts": [
+    {
+      "id": "afternoon-1",
+      "name": "Afternoon Shift",
+      "timeRange": "12:00 PM - 08:00 PM",
+      "vehicles": [
+        {
+          "id": "V-1001",
+          "typeTag": "SUV",
+          "vehicleName": "Bus-9265",
+          "plateNumber": "04321",
+          "odometerKm": 55956,
+          "gpsLastUpdate": "2024-11-03T13:05:50+03:00",
+          "device": { "name": "Teltonika", "model": "C03-96321", "online": true },
+          "sim": { "allowanceGb": 1.5 },
+          "fleet": "Q22",
+          "status": "Active"
+        },
+        {
+          "id": "V-1002",
+          "typeTag": "SUV",
+          "vehicleName": "Bus-9265",
+          "plateNumber": "04321",
+          "odometerKm": 55956,
+          "gpsLastUpdate": "2024-11-03T13:05:50+03:00",
+          "device": { "name": "Teltonika", "model": "C03-96321", "online": true },
+          "sim": { "allowanceGb": 1.5 },
+          "fleet": "Q22",
+          "status": "Active"
+        },
+        {
+          "id": "V-1003",
+          "typeTag": "SUV",
+          "vehicleName": "Bus-9265",
+          "plateNumber": "04321",
+          "odometerKm": 55956,
+          "gpsLastUpdate": "2024-11-03T13:05:50+03:00",
+          "device": { "name": "Teltonika", "model": "C03-96321", "online": true },
+          "sim": { "allowanceGb": 1.5 },
+          "fleet": "Q22",
+          "status": "Active"
+        },
+        {
+          "id": "V-1004",
+          "typeTag": "SUV",
+          "vehicleName": "Bus-9265",
+          "plateNumber": "04321",
+          "odometerKm": 55956,
+          "gpsLastUpdate": "2024-11-03T13:05:50+03:00",
+          "device": { "name": "Teltonika", "model": "C03-96321", "online": true },
+          "sim": { "allowanceGb": 1.5 },
+          "fleet": "Q22",
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "id": "afternoon-2",
+      "name": "Afternoon Shift",
+      "timeRange": "12:00 PM - 08:00 PM",
+      "vehicles": [
+        {
+          "id": "V-2001",
+          "typeTag": "SUV",
+          "vehicleName": "Bus-9265",
+          "plateNumber": "04321",
+          "odometerKm": 55956,
+          "gpsLastUpdate": "2024-11-03T13:05:50+03:00",
+          "device": { "name": "Teltonika", "model": "C03-96321", "online": true },
+          "sim": { "allowanceGb": 1.5 },
+          "fleet": "Q22",
+          "status": "Active"
+        },
+        {
+          "id": "V-2002",
+          "typeTag": "SUV",
+          "vehicleName": "Bus-9265",
+          "plateNumber": "04321",
+          "odometerKm": 55956,
+          "gpsLastUpdate": "2024-11-03T13:05:50+03:00",
+          "device": { "name": "Teltonika", "model": "C03-96321", "online": true },
+          "sim": { "allowanceGb": 1.5 },
+          "fleet": "Q22",
+          "status": "Active"
+        },
+        {
+          "id": "V-2003",
+          "typeTag": "SUV",
+          "vehicleName": "Bus-9265",
+          "plateNumber": "04321",
+          "odometerKm": 55956,
+          "gpsLastUpdate": "2024-11-03T13:05:50+03:00",
+          "device": { "name": "Teltonika", "model": "C03-96321", "online": true },
+          "sim": { "allowanceGb": 1.5 },
+          "fleet": "Q22",
+          "status": "Active"
+        },
+        {
+          "id": "V-2004",
+          "typeTag": "SUV",
+          "vehicleName": "Bus-9265",
+          "plateNumber": "04321",
+          "odometerKm": 55956,
+          "gpsLastUpdate": "2024-11-03T13:05:50+03:00",
+          "device": { "name": "Teltonika", "model": "C03-96321", "online": true },
+          "sim": { "allowanceGb": 1.5 },
+          "fleet": "Q22",
+          "status": "Active"
+        }
+      ]
+    }
+  ]
+}

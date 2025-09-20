@@ -1,0 +1,110 @@
+@use 'primeng/resources/themes/lara-dark-teal/theme.css';
+@use 'primeng/resources/primeng.css';
+@use 'primeicons/primeicons.css';
+@use 'primeflex/primeflex.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --content-max-width: 1440px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  --surface-ground: #252836;
+  --surface-section: #101625;
+  --surface-card: #10141a;
+  --surface-overlay: #152038;
+  --surface-border: #293246;
+
+  --text-color: #e5e7eb;
+  --text-color-secondary: #9aa4b2;
+
+  --shadow-1: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --font-family: 'Poppins', Inter, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family, 'Poppins', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif);
+  color: var(--text-color);
+}
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #253049;
+  border-radius: 8px;
+}
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.card,
+.panel,
+.surface-card {
+  background: var(--surface-card);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-1);
+}
+.p-component {
+  font-family: inherit;
+  color: var(--text-color);
+}
+
+.p-inputtext,
+.p-inputtextarea,
+.p-dropdown,
+.p-multiselect,
+.p-calendar,
+.p-inputmask {
+  background: var(--surface-card);
+  border-color: var(--surface-border);
+  color: var(--text-color);
+  border-radius: var(--radius-md);
+}
+.p-dropdown-panel,
+.p-overlaypanel,
+.p-dialog,
+.p-menu,
+.p-tieredmenu,
+.p-toast {
+  background: var(--surface-overlay);
+  border-color: var(--surface-border);
+  border-radius: var(--radius-lg);
+}
+
+.p-button {
+  border-radius: var(--radius-md);
+  border-color: transparent;
+}
+.p-button:not(.p-button-text):hover {
+  background: var(--primary-600);
+}
+
+.p-datatable .p-datatable-header,
+.p-datatable .p-datatable-footer {
+  background: var(--surface-section);
+  border-color: var(--surface-border);
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  background: var(--surface-section);
+  border-color: var(--surface-border);
+  color: var(--text-color-secondary);
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  border-color: var(--surface-border);
+}
+.text-secondary {
+  color: var(--text-color-secondary);
+}
+.content-max {
+  max-width: var(--content-max-width);
+  margin-inline: auto;
+}
